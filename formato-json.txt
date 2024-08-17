@@ -1,0 +1,71 @@
+- Estado
+
+{
+"id":11,
+"sigla":"RO",
+"nome":"Rondônia",
+"regiao":{
+	"id":1,
+	"sigla":"N",
+	"nome":"Norte"
+	}
+}
+
+
+- Múnicípio
+
+{"id":3300100,
+"nome":"Angra dos Reis",
+"microrregiao":{
+	"id":33013,
+	"nome":"Baía da Ilha Grande",
+	"mesorregiao":{
+		"id":3305,
+		"nome":"Sul Fluminense",
+		"UF":{
+			"id":33,"
+			sigla":"RJ",
+			"nome":"Rio de Janeiro",
+			"regiao":{
+				"id":3,
+				"sigla":"SE",
+				"nome":"Sudeste"
+				}
+			}
+		}
+	},
+"regiao-imediata":{
+	"id":330002,
+	"nome":"Angra dos Reis",
+	"regiao-intermediaria":{
+		"id":3301,
+		"nome":"Rio de Janeiro",
+		"UF":{
+			"id":33,
+			"sigla":"RJ",
+			"nome":"Rio de Janeiro",
+			"regiao":{
+				"id":3,
+				"sigla":"SE",
+				"nome":"Sudeste"
+			}
+		}
+	}
+}}
+
+
+- CEP
+
+    {
+      "cep": "01001-000",
+      "logradouro": "Praça da Sé",
+      "complemento": "lado ímpar",
+      "unidade": "",
+      "bairro": "Sé",
+      "localidade": "São Paulo",
+      "uf": "SP",
+      "ibge": "3550308",
+      "gia": "1004",
+      "ddd": "11",
+      "siafi": "7107"
+    }
